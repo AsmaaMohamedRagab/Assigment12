@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container d-flex align-items-center justify-content-between py-5">
+            <div class="d-flex">
+                <img src="./images/logo.png" alt="#">
+                <div class="ps-3">
+                    <h1 class="fs-6 text-white m-0">Weather</h1>
+                    <small class="m-0">tagline goes here</small>
+                </div>
+            </div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Live cameras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <header>
+        <div class="section">
+            <div class="container">
+                <div class="position-relative">
+                    <input type="search" class="w-100 mt-5 p-3 border-0 text-white inputsearch" placeholder="Find your location...">
+                    <button class="btn btn-primary ">Find</button>
+                </div>
+                <div class="row mt-5 pb-4">
+                    <div class="col-md-4 px-0 rounded-4" id="today">
+                        <div class="inner pb-4">
+                            <div class="d-flex  justify-content-between head px-2 pt-2">
+                                <p class="todayname">Saturday</p>
+                                <p class="todaydate">29June </p>
+                            </div>
+                            <div class="px-2 mt-3">
+                                <h5 class="todaycountry">Cairo</h5>
+                                <h1 class="todayweather">33.4<span>&#176;</span>C</h1>
+                                <img src="./images/116.webp" alt="" class="todayimage">
+                                <h6 class="todaystatus">Partly cloudy</h6>
+                            </div>
+                            <div class="foot">
+                                <span class="todaypercantage"><i class="fa-solid fa-umbrella"></i> 20%</span>
+                                <span class="todayvolicty"><i class="fa-solid fa-wind"></i> 18Km/h</span>
+                                <span class="todaywind"><i class="fa-regular fa-compass"></i> East</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-0 nextday">
+                        <div class="inner1">
+                            <div class="text-center title nextdayname ">Sunday</div>
+                            <div class="pt-5 text-center">
+                                <img src="./images/113.webp" alt="" class="nextdayimage">
+                                <h3 class="nextdaytemp">37.8<span>&#176;</span>C</h3>
+                                <small class="nextdaydeg">25.3<span>&#176;</span></small>
+                                <p class="nextdaystatus">Sunny</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-0 rounded-4 nextday">
+                        <div class="inner2">
+                            <div class="text-center title1 nextdayname ">Monday</div>
+                            <div class="pt-5 text-center">
+                                <img src="./images/113.webp" alt="" class="nextdayimage">
+                                <h3 class="nextdaytemp">39.9<span>&#176;</span>C</h3>
+                                <small class="nextdaydeg">25.4<span>&#176;</span></small>
+                                <p class="nextdaystatus">Sunny</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <footer class="py-5">
+        <div class="container d-flex justify-content-between">
+            <div class="search position-relative">
+                <input type="search" class="py-3 ps-3 border-0" placeholder="Enter your name to subscribe....">
+                <button class="btn btn-primary">Subscribe</button>
+                <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved </p>
+            </div>
+            <div class="icons me-5 mt-3 ">
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-google-plus-g"></i></span>
+                <span><i class="fa-brands fa-pinterest"></i></span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
